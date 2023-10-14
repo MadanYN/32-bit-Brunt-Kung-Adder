@@ -1,0 +1,19 @@
+v 4
+file . "testbench.vhd" "937f28624238c1c66d79a7c11de0f678efa95272" "20231006095127.687":
+  entity testbench at 1( 0) + 0 on 23;
+  architecture arc of testbench at 9( 118) + 0 on 24;
+file . "g_and_p.vhd" "da3794e5af106090914971b3772257853a860bc9" "20231006095115.498":
+  entity g_and_p at 1( 0) + 0 on 19;
+  architecture arc of g_and_p at 12( 203) + 0 on 20;
+file . "gates.vhd" "525f9c5a7a58a1dc139f5b8c6f9f5d53b28a5bfd" "20231006095103.415":
+  entity andgate at 2( 44) + 0 on 11;
+  architecture trivial of andgate at 9( 188) + 0 on 12;
+  entity xorgate at 14( 303) + 0 on 13;
+  architecture trivial of xorgate at 21( 447) + 0 on 14;
+  entity abcgate at 26( 562) + 0 on 15;
+  architecture trivial of abcgate at 33( 708) + 0 on 16;
+  entity cin_map_g at 39( 873) + 0 on 17;
+  architecture trivial of cin_map_g at 46( 1027) + 0 on 18;
+file . "adder.vhd" "b23bc069311095617eaee347a798241116dbdc80" "20231006095121.638":
+  entity brunt_kung_adder at 1( 0) + 0 on 21;
+  architecture arc of brunt_kung_adder at 14( 303) + 0 on 22;
